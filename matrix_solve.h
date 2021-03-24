@@ -4,6 +4,7 @@
 
 //подключение Qt библиотек
 #include <QString>
+//Вектор
 #include <QVector>
 #include <QDebug>
 
