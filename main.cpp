@@ -1,7 +1,4 @@
-//подключение главного окна
 #include "mainwindow.h"
-
-//подключение Qt библиотек
 #include <QApplication>
 
 //главная функция программы
@@ -15,6 +12,7 @@ int main(int argc, char *argv[])
     //отображение окна
     w.show();
     //установка заголовка окна
+	//Ко создал программу
     w.setWindowTitle("Решение транспортной задачи (InSomnia & Софья)");
 
     return a.exec();
